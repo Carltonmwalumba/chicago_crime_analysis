@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3cc9be8db4eab1fc74d75c01695c157 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3cc9be8db4eab1fc74d75c01695c157" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3cc9be8db4eab1fc74d75c01695c157 = L.map(
+                "map_d3cc9be8db4eab1fc74d75c01695c157",
+                {
+                    center: [41.89827996, -87.71640551],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_581a9a802bb268503ded6832e3940664 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var marker_208cc211a40e4112b3fae93f725696fd = L.marker(
+                [41.89827996, -87.71640551],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_bddfe4c656502f38db64673dea24d899 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_208cc211a40e4112b3fae93f725696fd.setIcon(icon_bddfe4c656502f38db64673dea24d899);
+        
+    
+        var popup_2a9546426bda064c60a93ec6a5940aff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4430bf172d5b62306262781daf3745c1 = $(`<div id="html_4430bf172d5b62306262781daf3745c1" style="width: 100.0%; height: 100.0%;">Incidents: 43</div>`)[0];
+                popup_2a9546426bda064c60a93ec6a5940aff.setContent(html_4430bf172d5b62306262781daf3745c1);
+            
+        
+
+        marker_208cc211a40e4112b3fae93f725696fd.bindPopup(popup_2a9546426bda064c60a93ec6a5940aff)
+        ;
+
+        
+    
+    
+            marker_208cc211a40e4112b3fae93f725696fd.bindTooltip(
+                `<div>
+                     Austin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f19dac573ae6c4ec3cacb25182da567 = L.marker(
+                [41.7734553, -87.70648047],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_6bcb5810b45036ca96d0583e3c989ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f19dac573ae6c4ec3cacb25182da567.setIcon(icon_6bcb5810b45036ca96d0583e3c989ab2);
+        
+    
+        var popup_fb8d4b9f238483cf33a79f021d8b460c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d44aff2fd4fd7258d38fe32cf62d036 = $(`<div id="html_4d44aff2fd4fd7258d38fe32cf62d036" style="width: 100.0%; height: 100.0%;">Incidents: 22</div>`)[0];
+                popup_fb8d4b9f238483cf33a79f021d8b460c.setContent(html_4d44aff2fd4fd7258d38fe32cf62d036);
+            
+        
+
+        marker_9f19dac573ae6c4ec3cacb25182da567.bindPopup(popup_fb8d4b9f238483cf33a79f021d8b460c)
+        ;
+
+        
+    
+    
+            marker_9f19dac573ae6c4ec3cacb25182da567.bindTooltip(
+                `<div>
+                     Humboldt park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c34f8018764ee2cecdd00772b6802b2 = L.marker(
+                [41.89644677, -87.64493868],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_47a36f137d17dc19ba3b1f421c944c97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c34f8018764ee2cecdd00772b6802b2.setIcon(icon_47a36f137d17dc19ba3b1f421c944c97);
+        
+    
+        var popup_e306fefe63972f2a8911919e696471fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baa6ce5bf61f01cd0f9a7e44319c33fc = $(`<div id="html_baa6ce5bf61f01cd0f9a7e44319c33fc" style="width: 100.0%; height: 100.0%;">Incidents: 21</div>`)[0];
+                popup_e306fefe63972f2a8911919e696471fa.setContent(html_baa6ce5bf61f01cd0f9a7e44319c33fc);
+            
+        
+
+        marker_4c34f8018764ee2cecdd00772b6802b2.bindPopup(popup_e306fefe63972f2a8911919e696471fa)
+        ;
+
+        
+    
+    
+            marker_4c34f8018764ee2cecdd00772b6802b2.bindTooltip(
+                `<div>
+                     Englewood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a8173cb660b73e1b54570b4a7b07043 = L.marker(
+                [41.86576126, -87.64687598],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_99b66d2581d1d30420f3060c6ab1b711 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a8173cb660b73e1b54570b4a7b07043.setIcon(icon_99b66d2581d1d30420f3060c6ab1b711);
+        
+    
+        var popup_4b6698077bbccbd57781dbfb817f1e5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cd8549bdd18363d2b32dc4642bdd848 = $(`<div id="html_2cd8549bdd18363d2b32dc4642bdd848" style="width: 100.0%; height: 100.0%;">Incidents: 16</div>`)[0];
+                popup_4b6698077bbccbd57781dbfb817f1e5e.setContent(html_2cd8549bdd18363d2b32dc4642bdd848);
+            
+        
+
+        marker_4a8173cb660b73e1b54570b4a7b07043.bindPopup(popup_4b6698077bbccbd57781dbfb817f1e5e)
+        ;
+
+        
+    
+    
+            marker_4a8173cb660b73e1b54570b4a7b07043.bindTooltip(
+                `<div>
+                     Near West Side
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_778135639dd77925298f7bea88b7024f = L.marker(
+                [41.87565911, -87.76256886],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_fc885e97d2211d5ddf9820e7dd07e157 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_778135639dd77925298f7bea88b7024f.setIcon(icon_fc885e97d2211d5ddf9820e7dd07e157);
+        
+    
+        var popup_2d011a5a3e4538a9d9a602bd0a215e01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42ef5a8df4f140724baa213138ad4c7d = $(`<div id="html_42ef5a8df4f140724baa213138ad4c7d" style="width: 100.0%; height: 100.0%;">Incidents: 16</div>`)[0];
+                popup_2d011a5a3e4538a9d9a602bd0a215e01.setContent(html_42ef5a8df4f140724baa213138ad4c7d);
+            
+        
+
+        marker_778135639dd77925298f7bea88b7024f.bindPopup(popup_2d011a5a3e4538a9d9a602bd0a215e01)
+        ;
+
+        
+    
+    
+            marker_778135639dd77925298f7bea88b7024f.bindTooltip(
+                `<div>
+                     North Lawndale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ae9625a64823939c4c5650405c41c9b = L.marker(
+                [41.89798294, -87.62409563],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_81406bc287ff7e4fbbfa6a988e000790 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ae9625a64823939c4c5650405c41c9b.setIcon(icon_81406bc287ff7e4fbbfa6a988e000790);
+        
+    
+        var popup_afe9ef0e99053d9e76fd03045a99ad2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94dc60bf4a09aa1fad78b79e7ca1e8ee = $(`<div id="html_94dc60bf4a09aa1fad78b79e7ca1e8ee" style="width: 100.0%; height: 100.0%;">Incidents: 15</div>`)[0];
+                popup_afe9ef0e99053d9e76fd03045a99ad2e.setContent(html_94dc60bf4a09aa1fad78b79e7ca1e8ee);
+            
+        
+
+        marker_1ae9625a64823939c4c5650405c41c9b.bindPopup(popup_afe9ef0e99053d9e76fd03045a99ad2e)
+        ;
+
+        
+    
+    
+            marker_1ae9625a64823939c4c5650405c41c9b.bindTooltip(
+                `<div>
+                     Near North Side
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3595507106fb57528a1b89d42161979 = L.marker(
+                [41.78512289, -87.64491718],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_0134d1a5624b25e79346f6f2ba589ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3595507106fb57528a1b89d42161979.setIcon(icon_0134d1a5624b25e79346f6f2ba589ebf);
+        
+    
+        var popup_875592ec55cdf452cabe57f8fb8aa758 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a529f4dbe66c8030f0d06b394d289a2b = $(`<div id="html_a529f4dbe66c8030f0d06b394d289a2b" style="width: 100.0%; height: 100.0%;">Incidents: 14</div>`)[0];
+                popup_875592ec55cdf452cabe57f8fb8aa758.setContent(html_a529f4dbe66c8030f0d06b394d289a2b);
+            
+        
+
+        marker_b3595507106fb57528a1b89d42161979.bindPopup(popup_875592ec55cdf452cabe57f8fb8aa758)
+        ;
+
+        
+    
+    
+            marker_b3595507106fb57528a1b89d42161979.bindTooltip(
+                `<div>
+                     Auburn Gresham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90eb0febbea1456a432ffd76186a34bb = L.marker(
+                [41.85481053, -87.71630954],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_308edc47c4cdd3379fcb3d2286c8075e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90eb0febbea1456a432ffd76186a34bb.setIcon(icon_308edc47c4cdd3379fcb3d2286c8075e);
+        
+    
+        var popup_1f156ded54879072ab4e6aa47fee3944 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a2a1f7abc5f227434281e827eb80000 = $(`<div id="html_3a2a1f7abc5f227434281e827eb80000" style="width: 100.0%; height: 100.0%;">Incidents: 13</div>`)[0];
+                popup_1f156ded54879072ab4e6aa47fee3944.setContent(html_3a2a1f7abc5f227434281e827eb80000);
+            
+        
+
+        marker_90eb0febbea1456a432ffd76186a34bb.bindPopup(popup_1f156ded54879072ab4e6aa47fee3944)
+        ;
+
+        
+    
+    
+            marker_90eb0febbea1456a432ffd76186a34bb.bindTooltip(
+                `<div>
+                     West Town
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d4867ec5616617ed212eaf4bada0179 = L.marker(
+                [41.78732372, -87.66441195],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_78711615178a4feaa52b583e4144b9f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d4867ec5616617ed212eaf4bada0179.setIcon(icon_78711615178a4feaa52b583e4144b9f8);
+        
+    
+        var popup_719055d99d82b788db51e8b0875ceb50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0441ea29f6d5a0afd8e301bfdbc2cd12 = $(`<div id="html_0441ea29f6d5a0afd8e301bfdbc2cd12" style="width: 100.0%; height: 100.0%;">Incidents: 12</div>`)[0];
+                popup_719055d99d82b788db51e8b0875ceb50.setContent(html_0441ea29f6d5a0afd8e301bfdbc2cd12);
+            
+        
+
+        marker_1d4867ec5616617ed212eaf4bada0179.bindPopup(popup_719055d99d82b788db51e8b0875ceb50)
+        ;
+
+        
+    
+    
+            marker_1d4867ec5616617ed212eaf4bada0179.bindTooltip(
+                `<div>
+                     West Englewood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_149f7bb6599e45a127142b5f5475580f = L.marker(
+                [41.7362964, -87.64036804],
+                {}
+            ).addTo(map_d3cc9be8db4eab1fc74d75c01695c157);
+        
+    
+            var icon_21d288f92aaa5266f62ad36c6f467127 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_149f7bb6599e45a127142b5f5475580f.setIcon(icon_21d288f92aaa5266f62ad36c6f467127);
+        
+    
+        var popup_93802d9dbbcc7d85b308dd998e8c81d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62de4df1006b478cdf4e86fe2128037a = $(`<div id="html_62de4df1006b478cdf4e86fe2128037a" style="width: 100.0%; height: 100.0%;">Incidents: 12</div>`)[0];
+                popup_93802d9dbbcc7d85b308dd998e8c81d8.setContent(html_62de4df1006b478cdf4e86fe2128037a);
+            
+        
+
+        marker_149f7bb6599e45a127142b5f5475580f.bindPopup(popup_93802d9dbbcc7d85b308dd998e8c81d8)
+        ;
+
+        
+    
+    
+            marker_149f7bb6599e45a127142b5f5475580f.bindTooltip(
+                `<div>
+                     Chicago Lawn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
